@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Http;
+namespace Nyxio\Http;
 
-use Nyx\Contract\Http\ContentType;
+use Nyxio\Contract\Http\ContentType;
 use Psr\Http\Message\ResponseInterface;
 
 class Response

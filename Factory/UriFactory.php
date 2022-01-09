@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Http\Factory;
+namespace Nyxio\Http\Factory;
 
 use Nyholm\Psr7\Uri;
 use Psr\Http\Message\UriFactoryInterface;
 use Psr\Http\Message\UriInterface;
 
-use function Nyx\Helper\Url\normalizeUri;
+use function Nyxio\Helper\Url\normalizeUri;
 
 class UriFactory implements UriFactoryInterface
 {

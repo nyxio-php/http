@@ -1,11 +1,11 @@
 {
-    "name": "nyx/http",
-    "description": "NYX Http component",
+    "name": "nyxio/http",
+    "description": "nyxio http component",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nyx\\Http\\": ""
+            "Nyxio\\Http\\": ""
         }
     },
     "authors": [
@@ -18,7 +18,7 @@
     "require": {
         "php": ">=8.1",
         "nyholm/psr7": "^1.4",
-        "nyx/contract": "dev-main",
-        "nyx/helper": "dev-main"
+        "nyxio/contract": "dev-main",
+        "nyxio/helper": "dev-main"
     }
 }

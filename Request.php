@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Http;
+namespace Nyxio\Http;
 
 use Psr\Http\Message\ServerRequestInterface;
 

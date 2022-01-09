@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Http\Factory;
+namespace Nyxio\Http\Factory;
 
 use Nyholm\Psr7\ServerRequest;
 use Psr\Http\Message\ServerRequestFactoryInterface;
@@ -10,8 +10,8 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\UriFactoryInterface;
 use Psr\Http\Message\UriInterface;
 
-use function Nyx\Helper\Text\parseFromString;
-use function Nyx\Helper\Url\normalizeUri;
+use function Nyxio\Helper\Text\parseFromString;
+use function Nyxio\Helper\Url\normalizeUri;
 
 class RequestFactory implements ServerRequestFactoryInterface
 {

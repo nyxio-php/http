@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Http\Factory;
+namespace Nyxio\Http\Factory;
 
 use Nyholm\Psr7\Response;
 use Psr\Http\Message\ResponseFactoryInterface;
